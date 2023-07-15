@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod $(ls -l olleh | awk '{print $1}') hello
+chmod --reference=olleh hello
