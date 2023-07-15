@@ -1,2 +1,2 @@
 #!/bin/bash
-chown betty hello || echo "File not owned by guillaume"
+chown --from=guillaume betty hello
